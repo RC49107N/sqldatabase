@@ -1,0 +1,11 @@
+SELECT `Games`.`title`, `Games`.`Year`
+FROM `Games`
+WHERE (`Games`.`Year` ="2017")
+
+SELECT `Players`.`Name`, `Players`.`Age`, `Players`.`playtime (hours per week)`
+FROM `Players`
+WHERE (`Players`.`playtime (hours per week)` <="30")
+
+SELECT `consoles`.`name`, `consoles`.`manufacture`, `consoles`.`release year`
+FROM `consoles`
+WHERE (`consoles`.`manufacture` ="Nintendo")
